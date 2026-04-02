@@ -26,9 +26,9 @@ import shopify from "./company/shopify.png";
 import GoNxt from "./company/GoNxt.png";
 import netcampus from "./company/netcampus.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import Picture1 from "./Picture1.png";
+import kasi from "./kasi.png";
+import Skye from "./Skye.png";
 
 export {
   logo,
@@ -56,7 +56,7 @@ export {
   shopify,
   GoNxt,
   netcampus,
-  carrent,
-  jobit,
-  tripguide,
+  Picture1,
+  kasi,
+  Skye,
 };

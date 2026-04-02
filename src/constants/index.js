@@ -1,27 +1,19 @@
 import {
   mobile,
-  backend,
-  creator,
   web,
   javascript,
   typescript,
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
-  mongodb,
   git,
   figma,
-  docker,
   dvt,
-  GoNxt,
-  netcampus,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
+  Picture1,
+  kasi,
+  Skye,
   threejs,
 } from "../assets";
 
@@ -161,50 +153,51 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
+    image: Picture1,
     source_code_link: "https://github.com/NKukame/DVT-Trainee-Portfolio",
   },
   {
-    name: "Job IT",
+    name: "E-Commerce Web App",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Kasi Essentials 🧢 A full-featured streetwear e-commerce platform built to showcase and sell authentic South African Kasi fashion brands. Built with React, this project demonstrates a complete shopping experience from browsing to checkout.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Tailwindcss",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Nodejs",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: kasi,
+    source_code_link: "https://github.com/Adrxn2000/KasiWebsite",
   },
+
   {
-    name: "Trip Guide",
+    name: "Weather Web App",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Interactive weather app with live forecasts, map-based search, and dynamic animations — built with React, Leaflet, and Framer Motion.",
     tags: [
       {
-        name: "nextjs",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "open-meteo-api",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Tailwindcss",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: Skye,
+    source_code_link: "https://github.com/Adrxn2000/weather-app",
   },
 ];
 
