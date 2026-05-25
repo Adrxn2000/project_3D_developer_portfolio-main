@@ -26,9 +26,12 @@ import shopify from "./company/shopify.png";
 import GoNxt from "./company/GoNxt.png";
 import netcampus from "./company/netcampus.png";
 
+import sentiment from "./sentiment.png";
 import Picture1 from "./Picture1.png";
 import kasi from "./kasi.png";
 import Skye from "./Skye.png";
+import content1 from "./content1.png";
+import finance from "./finance.png";
 
 export {
   logo,
@@ -53,10 +56,13 @@ export {
   typescript,
   threejs,
   dvt,
+  finance,
   shopify,
   GoNxt,
   netcampus,
   Picture1,
+   sentiment,
+  content1,
   kasi,
   Skye,
 };

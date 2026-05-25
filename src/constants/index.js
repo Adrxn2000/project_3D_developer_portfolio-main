@@ -11,8 +11,11 @@ import {
   git,
   figma,
   dvt,
+  content1,
   Picture1,
+  finance,
   kasi,
+  sentiment,
   Skye,
   threejs,
 } from "../assets";
@@ -136,16 +139,16 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Employee Portal",
+    name: "BudgetBot",
     description:
-      "Web-based platform The DVT Talent Portal aims to solve the problem of inefficient talent discovery and management within the organization. Stakeholders, including managers and clients, often struggle to quickly identify available employees based on skills, location, experience, and availability for projects. The goal was to create a secure, user-friendly platform that allows users to view, search, and manage employee profiles while ensuring data privacy and ease of use.",
+      "A conversational AI chatbot that helps South Africans take control of their personal finances — no bank account access, no jargon, just practical guidance.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "PostgreSQL",
+        name: "Typescript",
         color: "green-text-gradient",
       },
       {
@@ -154,8 +157,75 @@ const projects = [
       },
     ],
     image: Picture1,
-    source_code_link: "https://github.com/NKukame/DVT-Trainee-Portfolio",
+    source_code_link: "https://github.com/Lerumo-Consulting/budgetbot-money-mentor",
   },
+
+   {
+    name: "ContentCraft",
+    description:
+      "ContentCraft is an AI-powered content generator built for South African professionals — marketers, entrepreneurs, students, and small business owners who need quality content fast. Pick a content type, fill in a few inputs, and get formatted, ready-to-use copy streamed back token-by-token.",
+    tags: [
+      {
+        name: "TanStack Start v1 (React 19 + Vite 7)",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Typescript",
+        color: "green-text-gradient",
+      },
+      {
+        name: "	Tailwind CSS v4 with semantic OKLCH design tokens",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: content1,
+    source_code_link: "https://github.com/Adrxn2000/content-craft-sa",
+  },
+
+  {
+    name: "Sentiment Analysis Dashboard",
+    description:
+      "An end-to-end sentiment analysis pipeline for Amazon product reviews, combining Claude Haiku (LLM-based) with TextBlob (rule-based baseline) and an interactive HTML dashboard.",
+    tags: [
+      {
+        name: "HTML/CSS/JS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "pandas",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Claude Haiku",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: sentiment,
+    source_code_link: "https://github.com/Adrxn2000/sentiment-analysis",
+  },
+
+  {
+    name: "FinanceIQ",
+    description: "FinanceIQ pairs a deterministic, logistic-style risk scorer with a Gemini-powered conversational interface. Users can chat with the assistant about portfolio risk, assess new loan applicants, and explore a dashboard of 100 synthetic applicants — all in South African Rand (R).",
+    tags: [
+      {
+        name: "React 19 + TanStack Start + Tailwind CSS (dark theme)",   
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Gemini API",
+        color: "green-text-gradient",
+      },  
+      {
+        name: "Vite 7, TypeScript (strict), Bun",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: finance,
+    source_code_link: "https://github.com/Adrxn2000/financeIQ",
+    
+  },
+
   {
     name: "E-Commerce Web App",
     description:
