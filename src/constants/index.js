@@ -12,10 +12,11 @@ import {
   figma,
   dvt,
   content1,
+  Capaciti_Logo,
   Picture1,
   finance,
   kasi,
-  sentiment,
+  deskflow,
   Skye,
   threejs,
 } from "../assets";
@@ -95,6 +96,22 @@ const technologies = [
 
 const experiences = [
   {
+    title: "Software Developer intern",
+    company_name: "CAPACITI",
+    icon: Capaciti_Logo,
+    iconBg: "#E6DEDD",
+    date: "April 2026 - Present",
+    points: [
+        "Built DeskFlow, a full-stack internal IT ticketing system with role-based access control, using React, Node.js/Express, PostgreSQL, and Prisma ORM.",
+        "Designed a relational schema and REST API enforcing server-side role separation between Employee and Admin users, verified with 401/403/404 test coverage across every protected route.",
+        "Implemented JWT authentication with bcrypt password hashing, and built middleware-based route guards rather than relying on frontend-only access checks.",
+        "Documented the API with both a Postman v2.1 collection and a live Swagger/OpenAPI interface, exceeding the project's documentation requirement.",
+        "Deployed a production three-tier architecture across Netlify (frontend), Render (backend), and Neon (managed PostgreSQL), with CI-style auto-deploy from GitHub on every push.",
+        "Debugged and resolved real cross-platform deployment issues, including Windows/Linux filesystem case-sensitivity bugs, BOM-related config parsing failures, and SPA routing on a CDN.",
+        "Built a responsive UI with light/dark theming, an animated landing page, and component-driven architecture (Sidebar, TicketList, TicketForm, ProtectedRoute, etc.).",
+  ],
+},
+  {
     title: "Full stack Developer intern",
     company_name: "DVT",
     icon: dvt,
@@ -107,7 +124,6 @@ const experiences = [
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
   },
-  
 ];
 
 const testimonials = [
@@ -183,25 +199,25 @@ const projects = [
   },
 
   {
-    name: "Sentiment Analysis Dashboard",
+    name: "DeskFlow Portal",
     description:
-      "An end-to-end sentiment analysis pipeline for Amazon product reviews, combining Claude Haiku (LLM-based) with TextBlob (rule-based baseline) and an interactive HTML dashboard.",
+      "DeskFlow an Internal IT Service Request Portal Ticketing system where Employees submit IT tickets and Admins triage and resolve them.",
     tags: [
       {
         name: "HTML/CSS/JS",
         color: "blue-text-gradient",
       },
       {
-        name: "pandas",
+        name: "PostgresQL + Prisma ORM",
         color: "green-text-gradient",
       },
       {
-        name: "Claude Haiku",
+        name: "React + Nodejs/Express + Netlify + Render",
         color: "pink-text-gradient",
       },
     ],
-    image: sentiment,
-    source_code_link: "https://github.com/Adrxn2000/sentiment-analysis",
+    image: deskflow,
+    source_code_link: "https://deskflowportal.netlify.app/",
   },
 
   {

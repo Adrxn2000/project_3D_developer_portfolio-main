@@ -25,8 +25,9 @@ import dvt from "./company/dvt.png";
 import shopify from "./company/shopify.png";
 import GoNxt from "./company/GoNxt.png";
 import netcampus from "./company/netcampus.png";
+import Capaciti_Logo from "./company/Capaciti_Logo.png";
 
-import sentiment from "./sentiment.png";
+import deskflow from "./deskflow.png";
 import Picture1 from "./Picture1.png";
 import kasi from "./kasi.png";
 import Skye from "./Skye.png";
@@ -56,13 +57,14 @@ export {
   typescript,
   threejs,
   dvt,
-  finance,
-  shopify,
-  GoNxt,
-  netcampus,
-  Picture1,
-   sentiment,
-  content1,
-  kasi,
-  Skye,
+ Capaciti_Logo, 
+  finance,  
+  shopify,  
+  GoNxt,  
+  netcampus,  
+  Picture1, 
+   deskflow, 
+  content1, 
+  kasi, 
+  Skye, 
 };
