@@ -10,7 +10,9 @@ import {
   nodejs,
   git,
   figma,
+  docker,
   dvt,
+  postgresql, 
   content1,
   Capaciti_Logo,
   Picture1,
@@ -91,6 +93,15 @@ const technologies = [
     name: "figma",
     icon: figma,
   },
+  {
+    name: "docker",
+    icon: docker,
+  },
+  {
+    name: "Postgresql",
+    icon: postgresql,
+  }
+    
   
 ];
 
